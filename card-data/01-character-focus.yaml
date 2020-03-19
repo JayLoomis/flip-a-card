@@ -4,7 +4,7 @@
       - focus
 - template: &tfront
     <<: *template
-    rule: Flip to get a hit.
+    rule: Flip when triggered by narration to get a hit.
 - template: &tback
     <<: *template
     rule: Flip when a prompt is narrated by anyone.
